@@ -6,7 +6,7 @@ function fibonacci(n) {
     var sum ;
     for (let i = 2; i < n; i++) {
         sum = i + j;
-        fibonacci.push(sum);
+        sequence.push(sum);
         i = j;
         j = sum;
     }
